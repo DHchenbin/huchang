@@ -1531,23 +1531,4 @@ td
  <![endif]>
 </table>
 
-<script language = 'javascript' type='text/javascript'>
- function ChangeRowspanHiddenData()
- {
-   var node;
-   var params=["r0","r5","r7","r11","r13"];
-   for (var i = 0;i < params.length; i++)
-   {
-       node = document.getElementById(params[i]);
-       if (node != null)
-       {
-           node.style.display = "";
-       }
-   }
- }
- ChangeRowspanHiddenData();
-</script>
-            </body>
-
 </html>
-		
